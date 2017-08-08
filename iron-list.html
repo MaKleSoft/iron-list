@@ -1588,7 +1588,7 @@ will only render 20.
      */
     _selectionEnabledChanged: function(selectionEnabled) {
       var handler = selectionEnabled ? this.listen : this.unlisten;
-      handler.call(this, this, 'tap', '_selectionHandler');
+      handler.call(this, this, 'click', '_selectionHandler');
     },
 
     /**
